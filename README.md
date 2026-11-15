@@ -8,6 +8,10 @@ This library is in use in several robotics related projects and can be built and
 
 Serial is a class that provides the basic interface common to serial libraries (open, close, read, write, etc..) and requires no extra dependencies. It also provides tight control over timeouts and control over handshaking lines. 
 
+### This Fork
+
+This repository is a fork of [wjwwood/serial](https://github.com/wjwwood/serial). Its branch `ros2` builds with `ament_cmake`, for ROS 2, and changes no source file; the rest of this README is upstream's and still describes the catkin build. What the fork changes, how it is built and what a caller may rely on is in [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
+
 ### Documentation
 
 Website: http://wjwwood.github.com/serial/
